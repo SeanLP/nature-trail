@@ -9,15 +9,16 @@
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #5C4033;
+    background-color: rgba(72, 60, 50, 0.8);
     color: #fff;
 }
 /* header */
 #logo {
-    font-size: 60px;
+    font-size: xx-large;
     font-family: Montserrat, sans-serif;
     padding-top: 20px;
     padding-left: 20px;
+    margin-bottom: 10px;
     float: left;
     text-transform: uppercase;
 }
@@ -30,11 +31,11 @@ a {
 #menu {
     float: right;
     list-style-type: none;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 li {
-    font-size: 30px;
+    font-size: x-large;
     font-family: Montserrat, sans-serif;
     display: inline;
 }
@@ -48,25 +49,41 @@ li {
 }
 /* hero image */
 #hero-image {
-    background: url(../css/images/lake-image.jpeg) no-repeat center center;
-    height: 600px;
+    background: url(../images/lake-image.jpeg) no-repeat center center;
+    height: 500px;
     width: 100%;
     clear: both;
     background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
 }
-
+/* hero text */
 #hero-text {
     font-family: Montserrat, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: x-large;
     padding-top: 100px;
     margin: 0 auto;
+}
+
+#text-background {
+    opacity: .4;
 }
 
 hr {
     border-top-style: dotted;
     border-color: #228b22;
     width: 10%;
-    margin: 100px auto;
+    margin: 75px auto;
     border-width: 10px;
+}
+/* zoom out effect on hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(.9);
+    }
+    to{
+        transform: scale(1);
+    }
 }
