@@ -1,6 +1,6 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
-
+/* wildcard */
 * {
     padding: 0;
     margin: 0;
@@ -9,10 +9,10 @@
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: saddlebrown;
+    background-color: #5C4033;
     color: #fff;
 }
-
+/* header */
 #logo {
     font-size: 60px;
     font-family: Montserrat, sans-serif;
@@ -44,9 +44,9 @@ li {
 }
 
 #menu a:hover{
-    color: forestgreen;
+    color: #228b22;
 }
-
+/* hero image */
 #hero-image {
     background: url(../css/images/lake-image.jpeg) no-repeat center center;
     height: 600px;
@@ -61,4 +61,12 @@ li {
     font-size: 30px;
     padding-top: 100px;
     margin: 0 auto;
+}
+
+hr {
+    border-top-style: dotted;
+    border-color: #228b22;
+    width: 10%;
+    margin: 100px auto;
+    border-width: 10px;
 }
