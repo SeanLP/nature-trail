@@ -50,7 +50,7 @@ li {
 /* hero image */
 #hero-image {
     background: url(../images/lake-image.jpeg) no-repeat center center;
-    height: 500px;
+    height: 600px;
     width: 100%;
     clear: both;
     background-size: cover;
