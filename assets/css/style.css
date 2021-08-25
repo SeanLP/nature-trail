@@ -9,7 +9,7 @@
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #323033;
+    background-color: saddlebrown;
     color: #fff;
 }
 
@@ -53,4 +53,12 @@ li {
     width: 100%;
     clear: both;
     background-size: cover;
+}
+
+#hero-text {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    margin: 0 auto;
 }
