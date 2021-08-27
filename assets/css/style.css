@@ -91,10 +91,14 @@ hr {
     }
 }
 /* club ethos */
+#club-ethos {
+    height: 400px;
+    width: 100%;
+}
+
 #welcome {
     text-align: center;
     font-size: x-large;
-    max-height: 600px;
     margin-bottom: 60px;
 }
 
@@ -107,7 +111,7 @@ hr {
 #why-left {
     float: left;
     width: 40%;
-    padding-left: 30px;
+    padding-left: 40px;
     letter-spacing: 2px;
     font-size: large;
 }
@@ -121,9 +125,17 @@ hr {
 #why-right {
     float: right;
     width: 40%;
-    padding-right: 30px;
+    padding-right: 40px;
     letter-spacing: 2px;
     font-size: large;
     text-align: right;
 }
+/* hiking trails */
+#hiking-routes {
+    height: 400px;
+    width: 100%;
+}
 
+#hiking-heading {
+    text-align: center;
+}
