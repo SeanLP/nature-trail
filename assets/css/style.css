@@ -16,6 +16,10 @@ body {
 h1, h2, h3 {
     font-family: Montserrat, sans-serif;
 }
+
+p {
+    font-size: large;
+}
 /* header */
 #logo {
     font-size: xx-large;
@@ -78,7 +82,7 @@ hr {
     border-top-style: dotted;
     border-color: #228b22;
     width: 10%;
-    margin: 75px auto;
+    margin: 50px auto;
     border-width: 10px;
 }
 /* zoom out effect on hero image */
@@ -99,7 +103,7 @@ hr {
 #welcome {
     text-align: center;
     font-size: x-large;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 #why-left-heading {
@@ -113,7 +117,6 @@ hr {
     width: 40%;
     padding-left: 40px;
     letter-spacing: 2px;
-    font-size: large;
 }
 
 #why-right-heading {
@@ -127,7 +130,6 @@ hr {
     width: 40%;
     padding-right: 40px;
     letter-spacing: 2px;
-    font-size: large;
     text-align: right;
 }
 /* hiking trails */
@@ -138,4 +140,17 @@ hr {
 
 #hiking-heading {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+#trail-one {
+    float: left;
+    width: 40%;
+    padding-left: 40px;
+    letter-spacing: 2px;
+}
+
+#trail-one-img {
+    float: right;
+    width: 50%;
 }
