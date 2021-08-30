@@ -63,7 +63,7 @@ li {
     clear: both;
     background-size: cover;
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-fill-mode: backwards;
 }
 /* hero text */
@@ -154,3 +154,14 @@ hr {
     float: right;
     width: 50%;
 }
+
+img {
+    border-radius: 10%;
+    height: 450px;
+}
+
+.trails-about {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
