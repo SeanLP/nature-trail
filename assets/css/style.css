@@ -62,9 +62,6 @@ li {
     width: 100%;
     clear: both;
     background-size: cover;
-    animation-name: hero-zoom;
-    animation-duration: 6s;
-    animation-fill-mode: backwards;
 }
 /* hero text */
 #hero-text {
@@ -85,15 +82,7 @@ hr {
     margin: 50px auto;
     border-width: 10px;
 }
-/* zoom out effect on hero image */
-@keyframes hero-zoom {
-    from{
-        transform: scale(.9);
-    }
-    to{
-        transform: scale(1);
-    }
-}
+
 /* club ethos */
 #club-ethos {
     height: 400px;
@@ -158,6 +147,7 @@ hr {
 img {
     border-radius: 10%;
     height: 450px;
+    border: 2px solid #228b22;
 }
 
 .trails-about {
@@ -167,4 +157,21 @@ img {
 /* footer */
 footer {
     margin: 200px auto 0 auto;
+}
+
+#social-header {
+    text-align: center;
+}
+
+#socials {
+    text-align: center;
+}
+
+#socials i {
+    font-size: xx-large;
+    margin: 50px;
+}
+
+#socials i:hover{
+    color: #228b22;
 }
