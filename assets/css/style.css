@@ -164,4 +164,7 @@ img {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-
+/* footer */
+footer {
+    margin: 200px auto 0 auto;
+}
