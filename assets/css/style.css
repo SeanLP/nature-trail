@@ -215,6 +215,10 @@ form {
     margin-top: 100px;
 }
 
+.google-map {
+    width: 80%;
+}
+
 /* footer */
 footer {
     margin: 100px auto 0 auto;
