@@ -37,7 +37,7 @@ p {
 /* nav links */
 a {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 #menu {
@@ -154,6 +154,10 @@ img {
     margin-bottom: 40px;
 }
 
+.trails-heading {
+    border-bottom: 4px solid #228b22;
+}
+
 /* form section */
 #form-section {
    margin-top: 250px;
@@ -161,13 +165,29 @@ img {
 }
 
 label {
-    font-size: large;
+    font-size: x-large;
 }
 
 #form-section > h2 {
     margin-bottom: 40px;
 }
 
+form {
+    background-color: #228b22;
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.text-input {
+    background-color: #fff;
+    width: 50%;
+    height: 20px;
+    margin: 20px 0 20px 20px;
+    border-radius: 10%;
+    border: 1px solid #fff;
+}
 
 
 /* footer */
