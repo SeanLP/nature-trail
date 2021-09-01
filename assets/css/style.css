@@ -200,6 +200,7 @@ form {
 .submit-btn:hover {
     background-color: #185228;
     color: #fff;
+    cursor: pointer;
 }
 
 
