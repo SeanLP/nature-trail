@@ -190,6 +190,10 @@ form {
     border: 1px solid #fff;
 }
 
+.radio-input {
+    margin-right: 15px;
+}
+
 .submit-btn {
     font-size: x-large;
     background-color: #fff;
@@ -205,6 +209,11 @@ form {
     cursor: pointer;
 }
 
+/* google map */
+.map-wrapper {
+    text-align: center;
+    margin-top: 100px;
+}
 
 /* footer */
 footer {
