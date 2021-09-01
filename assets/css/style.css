@@ -175,9 +175,10 @@ label {
 form {
     background-color: #228b22;
     width: 50%;
-    height: 250px;
+    height: 300px;
     margin: 0 auto;
     border-radius: 10%;
+    box-shadow: 5px 10px 5px 10px #185228;
 }
 
 .text-input {
@@ -193,6 +194,7 @@ form {
     font-size: x-large;
     background-color: #fff;
     color: #228b22;
+    margin-top: 20px;
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -206,7 +208,7 @@ form {
 
 /* footer */
 footer {
-    margin: 200px auto 0 auto;
+    margin: 100px auto 0 auto;
     width: 100%;
 }
 
