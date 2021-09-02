@@ -81,7 +81,7 @@ li {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* club ethos */
+/* club ethos section */
 #club-ethos {
     height: 400px;
     width: 100%;
@@ -120,7 +120,7 @@ li {
     text-align: right;
 }
 
-/* hiking trails */
+/* hiking trails section */
 #hiking-routes {
     height: 400px;
     width: 100%;
@@ -175,22 +175,25 @@ label {
 form {
     background-color: #228b22;
     width: 50%;
-    height: 300px;
+    height: 380px;
     margin: 0 auto;
     border-radius: 10%;
     box-shadow: 5px 10px 5px 10px #185228;
+    padding-top: 20px;
 }
 
 .text-input {
     background-color: #fff;
     width: 50%;
-    height: 20px;
+    height: 40px;
     margin: 20px 0 20px 20px;
     border-radius: 5px;
     border: 1px solid #fff;
+    font-size: large;
 }
 
 .radio-input {
+    margin-top: 20px;
     margin-right: 15px;
 }
 
@@ -217,6 +220,7 @@ form {
 
 .google-map {
     width: 80%;
+    border-radius: 10px;
 }
 
 /* footer */
