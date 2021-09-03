@@ -131,7 +131,7 @@ li {
     margin-bottom: 40px;
 }
 
-#trail-one {
+#trails {
     float: left;
     width: 40%;
     padding-left: 40px;
@@ -157,6 +157,37 @@ img {
 .trails-heading {
     border-bottom: 4px solid #228b22;
 }
+
+/* timetable */
+.table-content {
+    border-collapse: collapse;
+    margin: 30px auto;
+    font-size: large;
+    width: 30%;
+    box-shadow: 0 0 20px #185228;
+    height: 300px;
+  }
+  
+  .table-content thead tr {
+    background-color: #228b22;
+    text-align: left;
+  }
+  
+  .table-content th {
+    padding: 15px 20px;
+  }
+
+  .table-content td {
+    padding: 15px 20px;
+  }
+  
+  .table-content tbody tr {
+    border-bottom: 2px solid #185228;
+  }
+  
+  .table-content tbody tr:last-of-type {
+    border-bottom: 2px solid #228b22;
+  }
 
 /* form section */
 #form-section {
