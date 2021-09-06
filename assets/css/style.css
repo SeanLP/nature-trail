@@ -257,6 +257,10 @@ img {
     margin-bottom: 40px;
 }
 
+.trails-about:last-of-type {
+    margin-bottom: 100px;
+}
+
 .trails-heading {
     border-bottom: 4px solid #228b22;
 }
@@ -282,11 +286,17 @@ img {
     #trail-img {
         float: none;
         width: 90%;
-        margin: 15px;
+        margin: auto;
+        padding: 0px;
     }
 }
 
 /* timetable */
+#timetable {
+    height: auto;
+    width: 100%;
+}
+
 .table-content {
     border-collapse: collapse;
     margin: 30px auto;
@@ -316,6 +326,13 @@ img {
   .table-content tbody tr:last-of-type {
     border-bottom: 2px solid #228b22;
   }
+
+/* media query */
+@media only screen and (max-width: 480px) {
+    .table-content {
+        font-size: small;
+    }
+}
 
 /* form section */
 #form-section {
