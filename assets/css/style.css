@@ -214,6 +214,7 @@ li {
         width: 80%;
         margin: 40px auto;
         padding-left: 0px;
+        text-align: center;
     }
 
     #why-right {
@@ -221,7 +222,7 @@ li {
         width: 80%;
         margin: 60px auto;
         padding-right: 0px;
-        text-align: left;
+        text-align: center;
     }
 }
 
@@ -241,6 +242,7 @@ li {
 #trail-img {
     float: right;
     width: 50%;
+    padding-right: 40px;
 }
 
 img {
@@ -260,7 +262,7 @@ img {
 }
 
 /* media query */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     #trails {
         float: none;
         width: 80%;
@@ -270,6 +272,7 @@ img {
 
     .trails-heading {
         text-align: center;
+        margin-bottom: 50px;
     }
 
     .trails-about {
