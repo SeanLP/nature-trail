@@ -13,6 +13,8 @@ body {
     font-family: Roboto, sans-serif;
     background-color: rgba(72, 60, 50, 0.8);
     color: #fff;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -33,6 +35,7 @@ p {
     float: left;
     text-transform: uppercase;
 }
+
 
 /* nav links */
 a {
@@ -60,6 +63,40 @@ li {
     color: #228b22;
 }
 
+@media only screen and (max-width: 480px) {
+    #logo {
+        padding-left: 0px;
+        text-align: center;
+        float: none;
+    }
+
+    .nav {
+        margin-right: 0px;
+    }
+
+    #menu {
+        float: none;
+        margin-top: 20px;
+    }
+
+    li{
+        width: 32%;
+        position: relative;
+        display: inline-block;
+    }
+
+    li a{
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 411px )and (max-width: 480px) {
+    li a{
+        padding-left: 20px;
+    }
+}
+
+
 /* hero image */
 #hero-image {
     background: url(../images/lake-image.jpeg) no-repeat center center;
@@ -80,6 +117,23 @@ li {
 #text-background {
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+@media only screen and (max-width: 480px) {
+    #hero-image-holder {
+        padding-top: 25px;
+    }
+    #hero-text {
+        padding-top: 150px;
+    }
+    #hero-text h2, #hero-text h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+
 
 /* club ethos section */
 #club-ethos {
