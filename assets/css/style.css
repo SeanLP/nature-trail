@@ -63,6 +63,7 @@ li {
     color: #228b22;
 }
 
+/* media query */
 @media only screen and (max-width: 480px) {
     #logo {
         padding-left: 0px;
@@ -96,7 +97,6 @@ li {
     }
 }
 
-
 /* hero image */
 #hero-image {
     background: url(../images/lake-image.jpeg) no-repeat center center;
@@ -118,6 +118,7 @@ li {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+/* media query */
 @media only screen and (max-width: 480px) {
     #hero-image-holder {
         padding-top: 25px;
@@ -139,7 +140,9 @@ li {
 .section-heading {
     text-align: center;
     font-size: x-large;
-    margin: 40px 0;
+    margin: 80px 0;
+    width: 100%;
+    clear: both;
 }
 
 #why-left-heading {
@@ -153,6 +156,7 @@ li {
     width: 40%;
     padding-left: 40px;
     letter-spacing: 2px;
+    margin-bottom: 100px;
 }
 
 #why-right-heading {
@@ -169,6 +173,7 @@ li {
     text-align: right;
 }
 
+/* media query */
 @media only screen and (max-width: 480px) {
     #why-left {
         float: none;
@@ -222,7 +227,7 @@ li {
 
 /* hiking trails section */
 #hiking-routes {
-    height: 700px;
+    height: auto;
     width: 100%;
 }
 
@@ -233,7 +238,7 @@ li {
     letter-spacing: 2px;
 }
 
-#trail-one-img {
+#trail-img {
     float: right;
     width: 50%;
 }
@@ -252,6 +257,30 @@ img {
 
 .trails-heading {
     border-bottom: 4px solid #228b22;
+}
+
+/* media query */
+@media only screen and (max-width: 480px) {
+    #trails {
+        float: none;
+        width: 80%;
+        padding: 0px;
+        margin: 0 auto;
+    }
+
+    .trails-heading {
+        text-align: center;
+    }
+
+    .trails-about {
+        text-align: center;
+    }
+
+    #trail-img {
+        float: none;
+        width: 90%;
+        margin: 15px;
+    }
 }
 
 /* timetable */
