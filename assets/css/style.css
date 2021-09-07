@@ -64,7 +64,7 @@ li {
 }
 
 /* media query */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 750px) {
     #logo {
         padding-left: 0px;
         text-align: center;
@@ -84,16 +84,8 @@ li {
         width: 32%;
         position: relative;
         display: inline-block;
-    }
-
-    li a{
-        padding-left: 15px;
-    }
-}
-
-@media only screen and (min-width: 411px )and (max-width: 480px) {
-    li a{
-        padding-left: 20px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
@@ -247,7 +239,7 @@ li {
 
 img {
     border-radius: 10%;
-    height: 450px;
+    height: auto;
     width: 100%;
     border: 2px solid #228b22;
 }
@@ -266,7 +258,7 @@ img {
 }
 
 /* media query */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 950px) {
     #trails {
         float: none;
         width: 80%;
@@ -288,6 +280,12 @@ img {
         width: 90%;
         margin: auto;
         padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #trail-img {
+        margin-top: 100px;
     }
 }
 
@@ -362,7 +360,7 @@ form {
     background-color: #fff;
     width: 50%;
     height: 40px;
-    margin: 20px 0 20px 20px;
+    margin: 20px;
     border-radius: 5px;
     border: 1px solid #fff;
     font-size: large;
@@ -386,6 +384,44 @@ form {
     background-color: #185228;
     color: #fff;
     cursor: pointer;
+}
+
+/* media query */
+@media only screen and (max-width: 950px) {
+    label {
+        display: block;
+    }
+
+    form {
+        width: 80%;
+        height: auto;
+    }
+
+    .text-input {
+        width: 80%;
+        text-align: center;
+    }
+
+    .radio-input {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .text-input {
+        height: 30px;
+        font-size: medium;
+    }
+
+    .radio-input {
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+
+    .submit-btn {
+        font-size: large;
+        margin-top: 10px;
+    }
 }
 
 /* google map */
