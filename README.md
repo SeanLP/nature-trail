@@ -10,3 +10,5 @@ ___
     * These links change color when hovered to be more easily detected by the user and allow the user to navigate to which ever desired part of the website.
 
     * The navigation tells the user the name of the club and website and makes the different sections of information easy to find.
+
+    ![Navbar](https://seanlp.github.io/nature-trail/assets/images/nav-bar.png)
