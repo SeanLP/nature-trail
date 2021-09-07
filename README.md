@@ -14,3 +14,11 @@ ___
     * The navigation tells the user the name of the club and website and makes the different sections of information easy to find.
 
     ![Navbar](https://seanlp.github.io/nature-trail/assets/images/nav-bar.png)
+
+* **The Header**
+
+    * The header shows the name of the club and includes an image of the area where the club activity takes place.
+
+    * Included in the header is text overlay which allows the user to know in brief what the club is about and what area it is located.
+
+    ![Header](https://seanlp.github.io/nature-trail/assets/images/header.png)    
