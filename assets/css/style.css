@@ -405,6 +405,10 @@ form {
     .radio-input {
         margin-right: 0px;
     }
+
+    .submit-btn {
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
