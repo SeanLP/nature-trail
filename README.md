@@ -30,3 +30,17 @@ ___
     * This section shows what value hiking brings to the user and why they should choose it as a hobby or form of exercise.
 
     ![Club-Ethos](https://seanlp.github.io/nature-trail/assets/images/club-ethos.png)
+
+* **Trails Section**
+
+    * The trails section gives the user the name and details about each different hiking trail.
+
+    * This section shows the user how long each trail is and what the trails consist of.
+
+    * Featured in this section is an image of one of the trails to give the user a visual representation of the location.
+
+    ![Trails](https://seanlp.github.io/nature-trail/assets/images/trails-section.png)
+
+* **The Timetable**
+
+    * The
