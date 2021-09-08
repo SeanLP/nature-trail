@@ -103,3 +103,13 @@ Nature Trail is a website for hiking enthusiasts to meet up in Glendalough, Co. 
 * **CSS**
 
     * No errors were found when passing through the official (Jigsaw) validator.
+
+* **Accessibility**
+
+    * I confirmed the colors and font chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+    ![Lighthouse](https://seanlp.github.io/nature-trail/assets/images/lighthouse.png)
+
+## Unfixed Bugs
+---
+* No unfixed bugs.
