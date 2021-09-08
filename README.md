@@ -21,4 +21,12 @@ ___
 
     * Included in the header is text overlay which allows the user to know in brief what the club is about and what area it is located.
 
-    ![Header](https://seanlp.github.io/nature-trail/assets/images/header.png)    
+    ![Header](https://seanlp.github.io/nature-trail/assets/images/header.png)   
+
+* **Club Ethos Section**
+
+    * The club ethos section shows the user why they should join the hiking club by outlining the different types of benefits hiking offers.
+
+    * This section shows what value hiking brings to the user and why they should choose it as a hobby or form of exercise.
+
+    ![Club-Ethos](https://seanlp.github.io/nature-trail/assets/images/club-ethos.png)
