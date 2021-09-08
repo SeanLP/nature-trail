@@ -1,10 +1,11 @@
 # Nature Trail
+
 Nature Trail is a website for hiking enthusiasts to meet up in Glendalough, Co. Wicklow. This website is targeted towards hikers and like minded individuals who want to socialize and keep fit while exploring the trails of Glendalough. Nature Trail is useful for hikers to see when to join the hiking club and which trail is being explored.
 
 ![Responsive-Website](https://seanlp.github.io/nature-trail/assets/images/responsive.png)
-___
 
 ## Features
+---
 * **Navigation Bar**
 
     * Featured at the top of the page is the navigation bar which includes links to the About, Trails and Sign Up section of the website. 
@@ -76,3 +77,29 @@ ___
     * The footer section is valuable to the user as it encourages them to keep in contact via social media.
 
     ![Footer](https://seanlp.github.io/nature-trail/assets/images/footer.png)
+
+## Testing
+---
+* I tested that this page works in different browsers: Chrome, Safari and Firefox.
+
+* I confirmed that this project is responsive, looks good and functions on all standard devices using the devtools devices toolbar.
+
+* I confirmed that the navigation, header, club ethos, trails, timetable, sign up form, and find us text are all readable and easy to understand.
+
+## Bugs
+---
+**Solved Bugs**
+
+* I discovered when I input the form details and submitted them it gave me an error 404.
+
+* I fixed this by giving the form an action="https://formdump.codeinstitute.net/".
+
+## Validator Testing
+---
+* **HTML**
+
+    * No errors were returned when passing through the official W3C validator.
+
+* **CSS**
+
+    * No errors were found when passing through the official (Jigsaw) validator.
