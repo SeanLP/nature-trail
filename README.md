@@ -57,4 +57,8 @@ ___
 
     * The sign up form is valuable to the user as it gives them the ability to sign up to the hiking club.
 
-    ![Sign-Up](https://seanlp.github.io/nature-trail/assets/images/h)
+    ![Sign-Up](https://seanlp.github.io/nature-trail/assets/images/sign-up.png)
+
+* **The Find Us Section**
+
+    * The 
