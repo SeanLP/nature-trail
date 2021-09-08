@@ -43,4 +43,8 @@ ___
 
 * **The Timetable**
 
-    * The
+    * The timetable allows the user to see which trail is being hiked, how long each trail is, what day each takes place on and at which time.
+
+    * This section will be updated as the timetable changes to keep the user up to date.
+
+    ![Timetable](https://seanlp.github.io/nature-trail/assets/images/timetable.png)
