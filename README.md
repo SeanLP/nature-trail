@@ -113,3 +113,34 @@ Nature Trail is a website for hiking enthusiasts to meet up in Glendalough, Co. 
 ## Unfixed Bugs
 ---
 * No unfixed bugs.
+
+## Deployment
+---
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+    * In the GitHub repository, navigate to the settings tab.
+
+    * From the source section drop-down menu, select the Master Branch.
+
+    * Once the master branch has been selected, the page provided the link to the completed website.
+
+    * The live link can be found here - [Nature Trail](https://seanlp.github.io/nature-trail/).
+
+## Credits
+---
+### Content
+
+* The text for the club ethos section was taken from [Outsider](https://outsider.ie/lifestyle/benefits-of-hiking/).
+
+* The text for the trails section was taken from [Glendalough](https://www.glendalough.ie/things-to-do/walking/s).
+
+* Parts of the code to make the timetable were taken from [Youtube](https://www.youtube.com/watch?v=biI9OFH6Nmg).
+
+* Parts of the code to make the footer were taken from the CI Love Running Project.
+
+* The icons in the header, club ethos and footer section were taken from [Font Awesome](https://fontawesome.com/).
+
+### Media
+
+* The images in the header and trails section was taken from [Pexels](https://www.pexels.com/).
+
