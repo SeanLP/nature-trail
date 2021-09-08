@@ -48,3 +48,13 @@ ___
     * This section will be updated as the timetable changes to keep the user up to date.
 
     ![Timetable](https://seanlp.github.io/nature-trail/assets/images/timetable.png)
+
+* **The Sign Up Form**
+
+    * The sign up section has a form to collect details from hikers so they can sign up to the club.
+
+    * The form collects the hiker's first name, last name, email address and which trail they would like to take.
+
+    * The sign up form is valuable to the user as it gives them the ability to sign up to the hiking club.
+
+    ![Sign-Up](https://seanlp.github.io/nature-trail/assets/images/h)
