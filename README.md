@@ -61,4 +61,18 @@ ___
 
 * **The Find Us Section**
 
-    * The 
+    * The find us section encourages the user to get in contact and provides a street address, a phone number and email address where they can be found.
+
+    * The find us section includes an interactive Google map of the area to provide the user with more location information.
+
+    * The find us section is valuable to the user as it gives them the ability to find and contact the hiking club.
+
+    ![Find-Us](https://seanlp.github.io/nature-trail/assets/images/find-us.png)
+
+* **The Footer**
+
+    * The footer section includes links to the relevant social media sites of Nature Trail. The links open up in a new tab to provide easy navigation to the user.
+
+    * The footer section is valuable to the user as it encourages them to keep in contact via social media.
+
+    ![Footer](https://seanlp.github.io/nature-trail/assets/images/footer.png)
